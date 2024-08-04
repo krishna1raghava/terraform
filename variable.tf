@@ -12,15 +12,15 @@ variable "vm" {
             ip_name  = "master-ip" 
           } 
            vm2 = { 
-            vm_name = "workednode1" 
+            vm_name = "workernode1" 
             nic_name  = "workernode1-nic" 
             ip_name  = "workernode1-ip" 
           } 
 
             vm3 = { 
-            vm_name = "workednode2" 
-            nic_name  = "workednode2-nic" 
-            ip_name  = "workednode2-ip" 
+            vm_name = "workernode2" 
+            nic_name  = "workernode2-nic" 
+            ip_name  = "workernode2-ip" 
           } 
         }
 }
