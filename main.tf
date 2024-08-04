@@ -82,8 +82,8 @@ resource "azurerm_resource_group" "example" {
                       location    = azurerm_resource_group.example.location 
                       size   = "Standard_F2"
                       computer_name = "hostname-${each.value.vm_name}"
-                      admin_username    = "adminuseer" 
-                      admin_password  =   "Windows@12345" 
+                      admin_username    = "kk" 
+                      admin_password  =   "lucky@12345" 
                       disable_password_authentication    = false 
                       for_each   = var.vm 
                       network_interface_ids  = [ 
